@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.conatiner {
+  background-color: greenyellow;
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading:hover {
+  color: navy;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 5px 10px 5px crimson;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 0;
+  font-style: align-items;
+  background-color: springgreen;
+}
+.btn:hover {
+  background-color: tomato;
+}
